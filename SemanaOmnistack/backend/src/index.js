@@ -11,7 +11,7 @@ const server = http.Server(app);
 
 setupWebSocket(server);
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0-rgw2v.gcp.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect(*/Add here your MongoDB database/*, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
